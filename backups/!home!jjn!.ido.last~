@@ -1,0 +1,29 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/jjn/.emacs.d/" . "elpa/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/jjn/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ ".emacs_orig"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jjn/" (19453 14201) "./" ".icons/" "things_to_install.txt" ".xbindkeysrc" ".gnome2_private/" ".gnupg/" "shite/" ".mplayer/" ".macromedia/" ".electricsheep/" ".jabber-avatars/" ".nautilus/" ".ncmpcpp/" ".muttrc" "../" ".remmina/" ".gstreamer-0.10/" ".pki/" ".emacs_orig" ".gksu.lock" ".kde/" ".maildir-sent/" ".local/" ".gconf/" ".recently-used.xbel" ".mutt/" ".gnome2/" ".cache/" ".ido.last" ".config/" ".mozilla/" ".evolution/" ".adobe/" ".bashrc" ".emacs~" ".thumbnails/" ".bash_logout" ".themes/" ".keytouch2/" ".bash_history" ".gconfd/" ".maildir/" ".serverauth.7512" "Downloads/" ".emacs.d/" ".purple/" ".recentf" "Automation/" "transport/" ".rdesktop/" "Pictures/" ".Xauthority" ".emacs" ".bash_profile" ".gitconfig" ".xinitrc" ".viminfo" ".ICEauthority" ".dbus/" ".ssh/" ".nvidia-settings-rc" ".gem/" ".lesshst" "Desktop/")
+
+ ("/home/jjn/.emacs.d/elpa/" (19453 12661) "./" "gist-0.4/" "../" "yaml-mode-0.0.5/" "ruby-mode-1.1/" "archives/" ".gitignore" "magit-0.7/" "idle-highlight-1.0/" "inf-ruby-2.1/")
+
+ ("/home/jjn/.emacs.d/" (19453 12977) "./" "init.el" "loaddefs.el" "auto-save-list/" "starter-kit-bindings.el" "starter-kit-lisp.el" "../" "README.markdown" "elpa-to-submit/" "starter-kit-elpa.el" "COPYING" "starter-kit-defuns.el" "starter-kit-eshell.el" "starter-kit-ruby.el" "starter-kit-perl.el" "package.el" "starter-kit-misc.el" "TODO" "dominating-file.el" "starter-kit-js.el" "elpa/" "starter-kit-registers.el" "backups/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
