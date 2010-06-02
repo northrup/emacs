@@ -26,4 +26,5 @@
 (if mswindows-p 
     (progn
       (set-default-font "-Misc-Fixed-Medium-R-Normal--11-100-75-75-C-60-ISO8859-1")
+      (setq ispell-program-name "aspell")
       ))
