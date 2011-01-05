@@ -20,18 +20,17 @@
 (setq dotfiles-dir (file-name-directory
                     (or (buffer-file-name) load-file-name)))
 
-;; Load up ELPA, the package manager
-
 (add-to-list 'load-path dotfiles-dir)
 
-(require 'package)
-(package-initialize)
-(require 'starter-kit-elpa)
-
+;; Load Packages
+(add-to-list 'load-path (concat dotfiles-dir "/packages/idle-highlight-1.0"))
+(add-to-list 'load-path (concat dotfiles-dir "/packages/git-emacs"))
+(add-to-list 'load-path (concat dotfiles-dir "/packages/css-mode-1.0"))
+(add-to-list 'load-path (concat dotfiles-dir "/packages/erc-5.3"))
+(add-to-list 'load-path (concat dotfiles-dir "/packages/ruby-mode-1.1"))
 (add-to-list 'load-path (concat dotfiles-dir "/elpa-to-submit"))
 
 (setq autoload-file (concat dotfiles-dir "loaddefs.el"))
-(setq package-user-dir (concat dotfiles-dir "elpa"))
 (setq custom-file (concat dotfiles-dir "custom.el"))
 
 ;; These should be loaded on startup rather than autoloaded on demand
@@ -44,9 +43,6 @@
 (require 'ansi-color)
 (require 'recentf)
 
-;; backport some functionality to Emacs 22 if needed
-(require 'dominating-file)
-
 ;; Load up starter kit customizations
 
 (require 'starter-kit-defuns)
@@ -58,6 +54,7 @@
 (require 'starter-kit-perl)
 (require 'starter-kit-ruby)
 (require 'starter-kit-js)
+(require 'git-emacs)
 
 (regen-autoloads)
 (load custom-file 'noerror)
